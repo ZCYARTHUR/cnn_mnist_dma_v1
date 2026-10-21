@@ -1,0 +1,4 @@
+lanes,pl_mhz,a53_mhz,compiler_flags,frames,cpu_mean_us,dma_pl_mean_us,batch_images_per_second,core_cycles,lut,ff,dsp,bram36_equiv,wns_ns,result
+4,,,,,,,,,,,,,,
+8,,,,,,,,,,,,,,
+16,,,,,,,,,,,,,,

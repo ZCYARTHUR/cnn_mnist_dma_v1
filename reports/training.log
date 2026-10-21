@@ -1,0 +1,17 @@
+epoch=1 loss=0.44394 fp32_test=93.0900%
+epoch=2 loss=0.21441 fp32_test=94.7900%
+epoch=3 loss=0.16281 fp32_test=95.6800%
+epoch=4 loss=0.13465 fp32_test=96.2400%
+epoch=5 loss=0.11634 fp32_test=96.5800%
+{
+  "kind": "trained MNIST PTQ",
+  "seed": 42,
+  "epochs": 5,
+  "test_samples": 10000,
+  "fp32_accuracy": 0.9658,
+  "int8_accuracy": 0.9656,
+  "weight_exponent": 6,
+  "activation_exponent": 5,
+  "fc_weight_exponent": 6,
+  "calibration": "first 2048 training samples"
+}

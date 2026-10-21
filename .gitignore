@@ -1,0 +1,45 @@
+# Vivado: keep project inputs and final handoff files, omit generated runs/caches.
+/build/*
+!/build/vivado_lanes4/
+/build/vivado_lanes4/*
+!/build/vivado_lanes4/cnn_mnist_dma.xpr
+!/build/vivado_lanes4/cnn_mnist_dma.srcs/
+!/build/vivado_lanes4/deliverables/
+.Xil/
+*.jou
+*.str
+*.bda
+**/ui/
+
+# Vitis: keep application sources, component settings and one hardware handoff.
+/vitis_workspace/.rigel_lopper/
+/vitis_workspace/cnn_test/build/
+/vitis_workspace/cnn_platform/build/
+/vitis_workspace/cnn_platform/export/
+/vitis_workspace/cnn_platform/logs/
+/vitis_workspace/cnn_platform/psu_cortexa53_0/
+/vitis_workspace/cnn_platform/zynqmp_fsbl/
+/vitis_workspace/cnn_platform/hw/*
+!/vitis_workspace/cnn_platform/hw/cnn_mnist_dma.bit
+!/vitis_workspace/cnn_platform/hw/cnn_mnist_dma.xsa
+_ide/
+.cache/
+.compile_commands/
+compile_commands.json
+.clangd
+.vitisWorkspace.json
+*.o
+*.obj
+*.d
+*.lock
+
+# Python and local settings. Keep reports/*.log as verification evidence.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

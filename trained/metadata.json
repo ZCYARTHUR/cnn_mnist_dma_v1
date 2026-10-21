@@ -1,0 +1,15 @@
+{
+  "kind": "trained MNIST PTQ",
+  "seed": 42,
+  "epochs": 5,
+  "test_samples": 10000,
+  "fp32_accuracy": 0.9658,
+  "int8_accuracy": 0.9656,
+  "weight_exponent": 6,
+  "activation_exponent": 5,
+  "fc_weight_exponent": 6,
+  "calibration": "first 2048 training samples",
+  "frames": 16,
+  "model_words": 1715,
+  "shift": 8
+}

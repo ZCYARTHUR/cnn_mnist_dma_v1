@@ -1,0 +1,9 @@
+LANES=4 FRAME=0 CORE_CYCLES=25863
+LANES=4 FRAME=1 CORE_CYCLES=25863
+LANES=4 FRAME=2 CORE_CYCLES=25863
+LANES=4 FRAME=3 CORE_CYCLES=25863
+PASS: bit-exact CNN, double buffers, randomized stream stalls, AXI-Lite and packet recovery
+- /workspace/scratch/0afca860ed81/cnn_mnist_dma_v1/sim/tb_cnn.sv:130: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.49
+- Verilator: $finish at 1ms; walltime 0.096 s; speed 11.284 ms/s
+- Verilator: cpu 0.096 s on 1 threads; allocated 7 MB

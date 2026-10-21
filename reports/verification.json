@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-17",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "torch": "2.14.0+cpu",
+  "torchvision": "0.29.0+cpu",
+  "rtl_simulator": "Verilator 5.49 development build (pip verilator)",
+  "rtl_lanes": [
+    4,
+    8,
+    16
+  ],
+  "mnist_rtl_frames_per_configuration": 16,
+  "synthetic_rtl_frames_per_configuration": 4,
+  "core_cycles": {
+    "4": 25863,
+    "8": 23833,
+    "16": 21803
+  },
+  "fp32_full_test_accuracy": 0.9658,
+  "int8_reference_full_test_accuracy": 0.9656,
+  "full_test_images": 10000,
+  "vivado_synthesis": "NOT RUN",
+  "vivado_implementation": "NOT RUN",
+  "xsim": "NOT RUN",
+  "vitis_bsp_build": "NOT RUN",
+  "board_dma_validation": "NOT RUN",
+  "board_speedup": null,
+  "resource_utilization": null
+}

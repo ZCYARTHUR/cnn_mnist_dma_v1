@@ -1,0 +1,4 @@
+domain_path: D:/FPGA/cnn_mnist_dma_v1/vitis_workspace/cnn_platform/export/cnn_platform/sw/standalone_psu_cortexa53_0
+app_src_dir: D:\AMDDesignTools\2026.1\Vitis\data\embeddedsw\lib\sw_apps\empty_application
+template: empty_application
+lang: c
